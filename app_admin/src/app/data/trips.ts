@@ -7,7 +7,7 @@ export const trips = [
         "resort": "Emerald Bay, 3 stars",
         "perPerson": "799.00",
         "image": "reef1.jpg",
-        "description": "<p>Gale Reef Sed et augue lorem. In sit amet placerat arcu</p>"
+        "description": "<p>Gale Reef is a beautiful destination. Located near a popular resort</p>"
     },
     {
         "code": "DAWR210315",
@@ -17,7 +17,7 @@ export const trips = [
         "resort": "Blue Lagoon, 4 stars",
         "perPerson": "1199.00",
         "image": "reef2.jpg",
-        "description": "<p>Dawson's Reef Integer magna leo, posuere et dignissim v</p>"
+        "description": "<p>Dawson's Reef is a prime spot for diving and marine exploration</p>"
     },
     {
         "code": "CLAR210621",
@@ -27,6 +27,6 @@ export const trips = [
         "resort": "Coral Sands, 5 stars",
         "perPerson": "1999.00",
         "image": "reef3.jpg",
-        "description": "<p>Claire's Reef Donec sed felis risus. Nulla facilisi. Do</p>"
+        "description": "<p>Claire's Reef offers luxury and relaxation, perfect for unwinding.</p>"
     }
 ]

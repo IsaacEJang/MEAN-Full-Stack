@@ -16,6 +16,13 @@ Travlr Getaways is a full-stack web application built using the MEAN stack (Mong
 
 ## Architecture
 
+| **Diagram**                                                                 | **Image**                                                                                                                                           |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Class Diagram** <br /> <br /> This diagram shows the structure of the system, outlining the classes and their relationships.                      | ![Class Diagram](https://github.com/user-attachments/assets/c5abbd3a-a98d-4621-a8a8-252987e96468)                                                   |
+| **Component Diagram** <br /> <br /> This diagram illustrates the high-level components of the system and how they interact.                         | ![Component Diagram](https://github.com/user-attachments/assets/ec8553cf-52d4-43d0-a5bc-93f8f1531988)                                                |
+| **Sequence Diagram** <br /> <br /> This diagram details the sequence of operations in the system, showing how objects interact over time.            | ![Sequence Diagram](https://github.com/user-attachments/assets/04be5009-956e-44e9-a850-5217f9e6399c)                                                 |
+
+
 ### Frontend Development
 
 In this project, I used a combination of Express HTML, JavaScript, and Angular for the frontend:

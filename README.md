@@ -16,40 +16,39 @@ Travlr Getaways is a full-stack web application built using the MEAN stack (Mong
 
 ### Frontend Development
 
-In this project, we utilized multiple types of frontend development: 
-- **Express HTML**: Offered basic templating capabilities to render pages, which was initially used during development to quickly set up server-side rendered pages.
-- **JavaScript**: Provided client-side interactivity, particularly when making asynchronous requests to the server for a more dynamic user experience.
-- **SPA with Angular**: Unlike traditional multi-page applications, the SPA dynamically loads content without reloading the page, providing a seamless, fast, and interactive user experience.
+In this project, I used a combination of Express HTML, JavaScript, and Angular for the frontend:
+- **Express HTML**: I initially used this for server-side rendering during development, which allowed me to quickly set up pages.
+- **JavaScript**: Provided the client-side interactivity, allowing me to make asynchronous requests to the server.
+- **SPA with Angular**: I transitioned to using Angular’s SPA architecture because it offers a more seamless user experience. Unlike traditional multi-page apps, the SPA reduces load times by dynamically updating content without reloading the page.
 
-The SPA approach was chosen for its ability to improve user experience by reducing page load times and creating a more dynamic interface, while Express HTML was used for early development and server-side rendering when needed.
+### Backend & NoSQL Database
 
-### Backend Development & NoSQL
-
-We opted for **MongoDB**, a NoSQL database, for its flexibility in handling large volumes of unstructured data. Unlike relational databases, MongoDB’s schema-less structure allowed us to evolve the database without complex migrations, which is crucial for scaling the application as the number of users and bookings increases.
+For the backend, I opted for **MongoDB**, a NoSQL database, because it provides flexibility in handling large volumes of unstructured data. Unlike traditional relational databases, MongoDB’s schema-less design allowed me to evolve the data structure without complex migrations, which will be crucial as the application scales.
 
 ## Functionality
 
 ### JSON vs JavaScript
 
-While **JavaScript** is the language for scripting web pages, **JSON** (JavaScript Object Notation) is a data format used for sending structured data between the frontend and backend. JSON is lightweight and easy for both humans and machines to read, making it ideal for transmitting data across the web. In this project, JSON enabled the backend (Express) to communicate with the frontend (Angular) by sending and receiving data in a structured format, bridging the two layers.
+While **JavaScript** powers client-side scripting, **JSON** (JavaScript Object Notation) is used to send structured data between the frontend and backend. In this project, JSON played a crucial role in allowing the Angular frontend to communicate with the Express backend, exchanging data such as trip details and booking information.
 
 ### Refactoring for Efficiency
 
-During development, we refactored the **trip browsing components** into reusable UI components. For instance, the trip cards displaying different destinations were consolidated into a single reusable component, making future updates easier. The benefits of this approach include:
-- **Code reusability**: Write once, use anywhere.
-- **Maintenance efficiency**: Changes in the UI could be made in one place and reflected across the application.
-- **Consistent user experience**: Ensured that the trip cards behaved consistently throughout the application.
+As the project progressed, I refactored several parts of the code to improve functionality and efficiency. For example, I turned trip listing components into reusable UI elements, which allowed me to create a consistent design across different parts of the app while minimizing redundancy. Refactoring also made it easier to maintain and update the application in the long run.
 
 ## Testing
 
-API testing in full-stack applications ensures the reliability of request and retrieval methods. We performed **unit tests** for individual API endpoints, which included testing GET and POST requests for booking management. The added layer of **JWT-based authentication** added complexity to testing, as the API requests needed to include valid tokens. Security testing involved validating that only authorized users could access specific endpoints, preventing unauthorized data access.
+To ensure the reliability of the application, I performed various types of API testing. This included:
+- **Unit testing** the API endpoints for booking management, which involved testing the methods for retrieving and posting data (GET and POST requests).
+- **Security testing** to ensure that only authorized users could access specific endpoints. This added complexity to the testing process, especially with the use of **JWT authentication**, where valid tokens were required for access.
 
 ### Methods, Endpoints, and Security
 
-- **Methods**: HTTP methods such as GET, POST, PUT, and DELETE were tested for correctness.
-- **Endpoints**: Testing was performed on `/api/trips`, `/api/bookings`, and user authentication endpoints.
-- **Security**: Authentication was handled using JWT tokens to secure communication between the frontend and backend.
+- **Methods**: I tested HTTP methods like GET, POST, PUT, and DELETE to ensure they performed the correct operations on data.
+- **Endpoints**: Testing focused on the `/api/trips`, `/api/bookings`, and `/api/users` endpoints.
+- **Security**: Using **JWT-based authentication**, I ensured that API requests were secure, with protected routes for logged-in users only.
 
 ## Reflection
 
-This course has been instrumental in advancing my skills as a full-stack developer. I have learned how to build scalable web applications using modern frameworks such as Angular and Express. Additionally, I’ve developed a deeper understanding of API development and testing, which will make me a more marketable candidate in the software engineering field. The hands-on experience with the MEAN stack has not only refined my programming skills but also strengthened my ability to design scalable, secure, and user-friendly web applications.
+This project and course have significantly helped me progress toward my professional goals. I’ve gained a deeper understanding of full-stack development, specifically using modern frameworks like Angular and Express. Building and testing a scalable web application has improved my programming skills and strengthened my ability to design secure, efficient solutions. These new skills make me a stronger candidate in the software engineering field, and I’m excited to apply them to real-world challenges.
+
+---

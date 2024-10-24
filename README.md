@@ -5,7 +5,7 @@
 Travlr Getaways is a full-stack web application built using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). It allows users to browse and book vacation packages while enabling administrators to manage travel listings, bookings, and customer interactions through a Single Page Application (SPA).
 
 
-## User Webiste (Node.js & Express)
+## User Website (Node.js & Express)
 ![User Interface](https://github.com/user-attachments/assets/04d48650-078a-4b55-94fe-2fd3d5c1477b)
 
 ## Admin Website (Angular)
